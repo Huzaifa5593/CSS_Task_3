@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    font-family: sans-serif;
+    height: 579px;
+    padding-top:150px;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(BG.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.container p{
+    
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container a{
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid, white;
+
+}
+
+.btn{
+    margin-left: 60%;
+    margin-top: 10%;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+
+}
+
+.btn button{
+    font-size: x-large;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
